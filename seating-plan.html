@@ -1,0 +1,5 @@
+<div class="container">
+<ul id="sortable">
+	<li id="{{student.id}}" class="ui-state-default" ng-repeat="student in students | orderBy:'desk'">{{ student.firstName }}</li>
+</ul>
+</div>

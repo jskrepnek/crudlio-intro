@@ -1,0 +1,8 @@
+/* Put your css in here */
+
+table.fixed {
+	table-layout: fixed;
+}
+
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 850px; }
+  #sortable li { margin: 3px 3px 3px 0; padding: 5px; float: left; width: 150px; height: 60px; font-size: 2em; text-align: center; }

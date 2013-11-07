@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="students">
+
+  <head>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />    
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular-resource.min.js"></script>
+    <script src="students-srv.js"></script>
+    <script src="list-ctrl.js"></script>
+    <script src="create-ctrl.js"></script>
+    <script src="edit-ctrl.js"></script>
+    <script src="seating-ctrl.js"></script>
+    <script src="seating-plan-dir.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 style="text-align:center">CRUDLIO Student Managament System</h1>
+      <div ng-view></div>
+    </div>
+
+  </body>
+
+</html>
